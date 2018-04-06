@@ -1,0 +1,37 @@
+1.
+Scanner input = new Scanner(System.in);
+int product = 0;
+while(product < 100){
+  int number = input.nextInt();
+  product = number * 10;
+}
+
+
+4.
+Scanner input = new Scanner(System.in);
+int total = 0;
+for(int i=0;i<10;i++){
+  int number = input.nextInt();
+  total = total + number;
+  System.out.println("The total is " + total);
+}
+
+
+7.
+Scanner input = new Scanner(System.in);
+int x = 1;
+do{
+  System.out.println("Enter a Number: ");
+  x = input.nextInt();
+} while(x > 0);
+
+
+8.
+Scanner keyboard = new Scanner(System.in);
+String input;
+char sure;
+while(sure != 'Y' || sure != 'N'){
+  System.out.print("Are you sure you want to quit? ");
+  input = keyboard.next();
+  sure = input.charAt(0)(0);
+}

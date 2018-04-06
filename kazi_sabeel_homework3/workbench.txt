@@ -1,0 +1,101 @@
+1a.
+    Pet
+--------------
+private String name
+private String animal
+private int age
+---------------
+public setName(String)
+public setAnimal(String)
+public setName(int)
+public getName()
+public getAnimal()
+public getAge()
+
+
+1b.
+class Pet{
+  private String name;
+  private String animal;
+  private int age;
+
+  public void setName(int x){
+    name = x;
+  }
+  public void setAnimal(int y){
+    animal = y;
+  }
+  public void setAge(int z){
+    age = z;
+  }
+  public String getName(){
+    return name;
+  }
+  public String getAnimal(){
+    return animal;
+  }
+  public String getAge(){
+    return age;
+  }
+}
+
+2a.
+public book(String t, String a, String p, int c){
+  title = t;
+  author = a;
+  publisher = p;
+  copiesSold = c;
+}
+
+2b.
+public void setTitle(int x){
+  title = x;
+}
+public void setAuthor(int y){
+  author = a;
+}
+public void setpublisher(int z){
+  publisher = z;
+}
+public void setcopiesSold(int a){
+  copies = a;
+}
+public String getTitle(){
+  return title;
+}
+public String getAuthor(){
+  return author;
+}
+public String getpublisher(){
+  return publisher;
+}
+public int getcopiesSold(){
+  return copiesSold;
+}
+
+c.
+      Book
+--------------
+private String title
+private String author
+private String publisher
+private int copiesSold
+---------------
+public setTitle(String)
+public setAuthor(String)
+public setPublisher(String)
+public setcopiesSold(int)
+public getTitle()
+public getAuthor()
+public getPublisher()
+public getcopiesSold()
+
+3a.
+public Square(){
+  sideLength = 0.0;
+}
+
+b.
+public Square(double size){
+  sideLength = size;
+}

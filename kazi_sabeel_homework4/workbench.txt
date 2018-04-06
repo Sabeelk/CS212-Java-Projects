@@ -1,0 +1,33 @@
+//Sabeel Kazi - Algorithm Workbench Questions
+1.
+public class Circle {
+  private double radius;
+
+  public Circle(double r) {
+    radius = r;
+  }
+
+  public double getArea() {
+    return Math.PI * radius * radius;
+  }
+
+  public double getRadius() {
+    return radius;
+  }
+  //Question 1a-
+  public String toString(){
+    String s = "Radius: " + getRadius()
+                + "/nArea: " + getArea();
+  }
+  //Question 1b-
+  public boolean equals(Circle c){
+    if(c.getRadius == getRadius()) return true;
+    else return false;
+  }
+  //Question 1c-
+  public boolean greaterThan(Circle c){
+    if(c.getRaidus > getRadius()) return true;
+    else return false;
+  }
+}
+3. enum petStore {DOG, CAT, BIRD, HAMSTER}
